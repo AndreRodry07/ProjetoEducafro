@@ -1,0 +1,85 @@
+/* Media Query para larguras de tela de até 947px */
+@media screen and (max-width: 947px) {
+    .wrapper {
+        padding: 0;
+   }
+
+    header {
+        justify-content: center;
+   }
+
+    .logo {
+        justify-content: center;
+        margin-top: 40px;
+        margin-left: 0;
+   }
+
+    nav .navLinks {
+        margin-top: 40px;
+   }
+
+    .container .heroPic {
+        width: 350px;
+        height: 350px;
+        margin-bottom: 12px;
+   }
+
+    .container {
+        flex-direction: column;
+        padding-top: 4rem;
+   }
+
+    nav .navLinks li a {
+        margin-right: 1.2rem;
+   }
+
+    .heroText {
+        position: relative;
+        right: 60px;
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+   }
+
+}
+/* Media Query para larguras de tela de até 690px */
+@media screen and (max-width: 690px) {
+    .container .heroPic {
+        width: 260px;
+        height: 260px;
+   }
+
+    .logo {
+        margin-top: 12px;
+   }
+
+    .heroText h1 {
+        font-size: 2.4rem;
+   }
+    .heroText p {
+        font-size: 0.9em;
+   }
+
+    nav .navLinks {
+        margin-top: 10px;
+   }
+
+    nav .navLinks li a {
+        padding: 0 10px;
+        margin-right: 0;
+        font-size: 0.7em;
+   }
+
+    .heroText {
+        margin-top: 12px;
+        right: 0;
+        padding: 0 10px;
+   }
+
+    .btnGroup .btn {
+        padding: 8px 22px;
+        margin: 3px 0;
+        font-size: 0.9em;
+   }
+   
+}

@@ -1,0 +1,93 @@
+<!-- Start of HTML Document -->
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <!-- Meta tags and title -->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portfolio</title>
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <!-- Favicon -->
+      <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+      <!-- Font Awesome -->
+      <script src="https://kit.fontawesome.com/119df89278.js" crossorigin="anonymous"></script>
+      <!-- Typed.js - Library for text typing animation -->
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+      <!-- Stylesheets -->
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <link rel="stylesheet" type="text/css" href="mediaQueries.css">
+   </head>
+   <body>
+      <!-- Hero Header Section -->
+      <section class="heroHeader">
+         <section class="wrapper">
+            <header>
+
+               <!-- Logo -->
+               <div class="logo">
+                  <i class="fa-solid fa-a"></i>
+                  <div class="logoText">André Rodry</div>
+               </div>
+
+               <!-- Navigation Bar -->
+               <nav>
+                  <ul class="navLinks">
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#">Portfolio</a></li>
+                     <li><a href="#">Cursos</a></li>
+                     <li><a href="#">Contato</a></li>
+                     <li><a href="#">Serviços</a></li>
+                  </ul>
+               </nav>
+            </header>
+
+            <!-- Main Content -->
+            <section class="container">
+
+               <figure class="heroPic">
+                  <img src="img/foto.jpg" alt="profilePic">
+               </figure>
+
+               <article class="heroText">
+                  <h5>Olá, eu sou <span class="input">Frontend Developer</span></h5>
+                  <h1>André Rodry</h1>
+                  <p>Olá! Eu sou um apaixonado web designer dedicado a criar experiências digitais 
+                     incríveis. Com paixão pela estética e pela funcionalidade, eu amo o que faço. 
+                     Cada projeto é uma oportunidade para transformar ideias em realidade, utilizando 
+                     meu conhecimento em design, desenvolvimento web e criatividade.
+                  </p>
+
+                  <!-- Button Group -->
+                  <div class="btnGroup">
+                     <a href="#" class="btn">Baixar Currículo</a>
+                  </div>
+
+                  <!-- Social Media Icons -->
+                  <div class="social">
+                     <a><i class="fa-brands fa-facebook"></i></a>
+                     <a><i class="fa-brands fa-linkedin"></i></a>
+                     <a><i class="fa-brands fa-instagram"></i></a>
+                     <a><i class="fa-brands fa-github"></i></a>
+                  </div>
+
+               </article>
+            </section>
+         </section>
+      </section>
+
+      <!-- Typed.js Initialization -->
+      <script>
+         let typed = new Typed(".input", {
+             strings: ["Frontend Developer", "UX Designer", "Web Developer"],
+             typeSpeed: 70,
+             backSpeed: 55,
+             loop: true
+         });
+      </script>
+
+   </body>
+</html>
+<!-- End of HTML Document -->
