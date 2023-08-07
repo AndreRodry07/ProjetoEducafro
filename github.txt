@@ -1,0 +1,26 @@
+git -v
+
+git bash
+
+git config --global user.name "<nome>"
+git config --global user.email "<email>"
+
+Verificar as configurações
+
+git config user.name
+git config user.email
+
+
+git init
+
+git remote add origin <url do github>
+
+git add *
+
+git commit -m "mensagem"
+
+git push
+
+
+
+
